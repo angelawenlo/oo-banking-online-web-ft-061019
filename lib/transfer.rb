@@ -18,6 +18,6 @@ class Transfer
     if @status = "pending" && amount > 0
     @sender.balance -= amount
     @receiver.balance += amount
-  end
+    end
   end
 end
