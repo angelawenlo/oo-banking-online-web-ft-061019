@@ -11,6 +11,6 @@ class Transfer
   end
 
   def valid?
-
+    Transfer.name
   end
 end
