@@ -12,5 +12,6 @@ class Transfer
 
   def valid?
     Transfer.name
+    binding.pry
   end
 end
