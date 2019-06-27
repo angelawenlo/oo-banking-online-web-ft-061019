@@ -16,7 +16,7 @@ class Transfer
 
   def execute_transaction
     @sender.each do |s|
-      
+      binding.pry
     @sender.balance = @balance - amount
     @receiver.balance = @balance + amount
   end
